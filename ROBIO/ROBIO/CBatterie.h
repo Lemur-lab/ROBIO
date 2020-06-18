@@ -3,15 +3,15 @@
 class CBatterie
 {
 private:	
-	int state_batterie;
-	int data_batterie;
+	int level_batterie;
+
+
 public:
 
-	CBatterie(); //Constructeur de CBattery
-	CBatterie(int i_St, int i_Mes); //Constructeur de CBattery
-	~CBatterie(); //Destructeur de CBattery
+	CBatterie(); //Constructeur de CBatterie
+	CBatterie(int level); //Constructeur de CBatterie
+	~CBatterie(); //Destructeur de CBatterie
 	
-	int get_state_batterie(); // retourne la valeur StateBattery
-	int get_data_batterie(); // retourne la valeur MesureBattery
-
+	int get_level_batterie(); // retourne la valeur de la batterie 
+	bool set_level_batterie(int level); // mise à jour de la valeur de la batterie 
 };
