@@ -4,6 +4,8 @@ class CMoteur
 		// Données privées
 private :
 	int a; 
+	int batterie;
+	int conso;
 
 	// Données publiques
 public :
