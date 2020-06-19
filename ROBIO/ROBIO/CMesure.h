@@ -21,6 +21,6 @@ class CMesure
 		void	SetMesureData(int MData);	// Set MesureData
 
 		/* Functions */
-		bool	LaunchMesure();		// Launch mesure, returns True if succeed
+		void	LaunchMesure();		// Launch mesure, returns True if succeed
 };
 

@@ -18,6 +18,10 @@ CCapteur::CCapteur()
 
 CCapteur::CCapteur(bool valTree, bool valObstacle, bool valBorder)
 {
+    // Prevalue for the private data
+    Tree        = valTree;
+    Obstacle    = valObstacle;
+    Border      = valBorder;
 }
 
 CCapteur::~CCapteur()

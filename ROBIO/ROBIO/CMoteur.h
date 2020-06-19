@@ -2,17 +2,17 @@
 class CMoteur
 {
 		// Données privées
-private :
-	int a; 
-	int batterie;
-	int conso;
+//private :
+	//int a; 
+	//int batterie;
+	//int conso;
 
 	// Données publiques
-public :
+//public :
 
-	int get_batterie()				{ return batterie ; }
+//	int get_batterie()				{ return batterie ; }
 
-	void conso_batterie (int conso)		{ batterie = batterie - conso ; }
+//	void conso_batterie (int conso)		{ batterie = batterie - conso ; }
 
 };
 

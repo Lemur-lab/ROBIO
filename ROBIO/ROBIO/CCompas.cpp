@@ -2,7 +2,6 @@
 #include <cstdlib>
 
 
-
 CCompas::CCompas() : position_x(0), position_y(0)
 {
 }

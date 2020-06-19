@@ -35,7 +35,7 @@ int CMesure::GetMesureData()
 }
 
 /* Setters */
-void CMessure::SetMesureOn(bool MOn)
+void CMesure::SetMesureOn(bool MOn)
 {
 	MesureOn = MOn;
 }
@@ -46,4 +46,11 @@ void CMesure::SetMesureData(int MData)
 }
 
 /* Functions */
-bool 
+void CMesure::LaunchMesure()
+{
+	int MesureVal;	
+
+	MesureVal = rand();
+
+	SetMesureData(MesureVal);
+}
