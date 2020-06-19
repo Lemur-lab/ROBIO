@@ -24,18 +24,9 @@ int CBatterie::get_level_batterie()
 }
 
 
-bool CBatterie::set_level_batterie(int level)
+void CBatterie::set_level_batterie(int level)
 {
 	level_batterie = level;
-
-	if (level_batterie == NULL || level_batterie != level)
-	{
-		return false;
-	}
-	else
-	{
-		return true;
-	}
 }
 
 

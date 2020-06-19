@@ -13,5 +13,5 @@ public:
 	~CBatterie(); //Destructeur de CBatterie
 	
 	int get_level_batterie(); // retourne la valeur de la batterie 
-	bool set_level_batterie(int level); // mise à jour de la valeur de la batterie 
+	void set_level_batterie(int level); // mise à jour de la valeur de la batterie 
 };
