@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "CMesure.h"
-
 
 /* Includes */
 #include <cstdlib>

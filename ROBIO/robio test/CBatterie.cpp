@@ -1,4 +1,4 @@
-
+#include "pch.h"
 #include "CBatterie.h"
 #include <time.h>
 #include <cstdlib>
@@ -30,5 +30,9 @@ void CBatterie::set_level_batterie(int level)
 	level_batterie = level;
 }
 
+void CBatterie::battery_consumption(int cons){
+
+	level_batterie = level_batterie + cons; 
+}
 
 

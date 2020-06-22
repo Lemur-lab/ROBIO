@@ -33,9 +33,22 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClInclude Include="..\ROBIO\CBatterie.h" />
+    <ClInclude Include="..\ROBIO\CCapteur.h" />
+    <ClInclude Include="..\ROBIO\CCommande.h" />
+    <ClInclude Include="..\ROBIO\CCompas.h" />
+    <ClInclude Include="..\ROBIO\CMesure.h" />
+    <ClInclude Include="..\ROBIO\CMoteur.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ROBIO\CBatterie.cpp" />
+    <ClCompile Include="..\ROBIO\CCapteur.cpp" />
+    <ClCompile Include="..\ROBIO\CCommande.cpp" />
+    <ClCompile Include="..\ROBIO\CCompas.cpp" />
+    <ClCompile Include="..\ROBIO\CMesure.cpp" />
+    <ClCompile Include="..\ROBIO\CMoteur.cpp" />
+    <ClCompile Include="..\ROBIO\main.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

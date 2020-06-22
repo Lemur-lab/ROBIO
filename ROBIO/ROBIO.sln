@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ROBIO", "ROBIO\ROBIO.vcxproj", "{5D463F00-EC9E-498B-8E48-2CC0922F4367}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "robio test", "robio test\robio test.vcxproj", "{1C8C559F-0637-4F02-9FE9-BCD74DB2DD0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D463F00-EC9E-498B-8E48-2CC0922F4367} = {5D463F00-EC9E-498B-8E48-2CC0922F4367}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
