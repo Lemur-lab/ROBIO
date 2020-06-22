@@ -1,40 +1,48 @@
+/**************************************************************
+
+* SOURCE : <test.cpp>
+* PRESENTATION : <contient les tests unitaires des differentes classes>
+
+**************************************************************/
+
 #include "pch.h"
 #include "CCompas.h"
 #include "CBatterie.h"
 
-// TESTS DE LA CLASSE CCOMPAS 
+
+// Tests de la classe CCompas
 
 TEST(TestCCompas, TestSetPosition) {
 	
-	int res_x; 
-	int res_y;
+	int iRes_x; 
+	int iRes_y;
 
 	CCompas CCompas(3, 3);
 
-	CCompas.set_position_x(5);
-	CCompas.set_position_y(5); 
+	CCompas.Set_position_x(5);
+	CCompas.Set_position_y(5); 
 
-	res_x = CCompas.get_position_x(); 
-	res_y = CCompas.get_position_y(); 
+	iRes_x = CCompas.Get_position_x(); 
+	iRes_y = CCompas.Get_position_y(); 
 	
-	EXPECT_EQ(res_x, 5); 
-	EXPECT_EQ(res_y, 5); 
+	EXPECT_EQ(iRes_x, 5); // verifie que la mise a jour de la position en x du robot a ete faite
+	EXPECT_EQ(iRes_y, 5); // verifie que la mise a jour de la position en y du robot a ete faite
 }
 
 
-// TESTS DE LA CLASSE CBatterie
+// Tests de la classe CBatterie
 
 TEST(TestCBatterie, TestConsumption) {
   
-	int res_batt;
+	int iRes_Batterie;
 
 	CBatterie CBatterie(0); 
 
-	CBatterie.battery_consumption(10);
+	CBatterie.Consommation_Batterie(10);
 
-	res_batt = CBatterie.get_level_batterie();
+	iRes_Batterie = CBatterie.Get_Level_Batterie();
 
-	EXPECT_EQ(res_batt, 10);
+	EXPECT_EQ(iRes_Batterie, 10); // verifie que la conso de la batterie a ete mise a jour
   
 }
 
@@ -46,9 +54,3 @@ TEST(TestCBatterie, TestConsumption) {
 //  EXPECT_TRUE(true);
 //}
 
-// TESTS DE LA CLASSE Cxxx
-
-//TEST(TestCaseName, TestName) {
-//  EXPECT_EQ(1, 1);
-//  EXPECT_TRUE(true);
-//}

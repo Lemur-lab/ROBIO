@@ -1,4 +1,12 @@
 #pragma once
+
+/**************************************************************
+
+* CLASSE : <CCapteur>
+* PRESENTATION : <Capteur de signaux balise (bordures de terrain, obstacles, arbres)>
+
+**************************************************************/
+
 class CCapteur
 {
 	// Private data

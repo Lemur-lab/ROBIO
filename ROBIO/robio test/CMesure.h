@@ -1,5 +1,12 @@
 #pragma once
 
+/**************************************************************
+
+* CLASSE : <CMesure>
+* PRESENTATION : <Pilote d'outil de mesure forestier>
+
+**************************************************************/
+
 class CMesure
 {
 	private:

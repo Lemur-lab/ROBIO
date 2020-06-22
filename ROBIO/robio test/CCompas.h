@@ -1,24 +1,31 @@
 #pragma once
 
+/**************************************************************
+
+* CLASSE : <CCompas>
+* PRESENTATION : <Capteur de geolocalisation du ROBIOT>
+
+**************************************************************/
+
 class CCompas
 {
-	// Données privées
-private :
-	int position_x;
-	int position_y;
 
-	// Données publiques
+private :
+
+	int iPosition_x;
+	int iPosition_y;
+
 public :
 
 	CCompas();//Constructeur de CCompas
-	CCompas(int pos_x, int pos_y);//Constructeur de CCompas
+	CCompas(int iPos_x, int iPos_y);//Constructeur de CCompas
 	~CCompas();//Destructeur de CCompas
 
 
-	int get_position_x();    // retourne la position x du robot 
-	int get_position_y();    // retourne la position y du robot 
+	int Get_position_x();    // Retourne la position x du robot 
+	int Get_position_y();    // Retourne la position y du robot 
 
-	void set_position_x(int pos_x); // met a jour la position x du robot		
-	void set_position_y(int pos_y); // met a jour la position y du robot 
+	void Set_position_x(int iPos_x); // Met a jour la position x du robot		
+	void Set_position_y(int iPos_y); // Met a jour la position y du robot 
 };
 

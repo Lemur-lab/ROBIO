@@ -1,18 +1,25 @@
 #pragma once
 
+/**************************************************************
+
+* CLASSE : <CBatterie>
+* PRESENTATION : <Capteur de niveau de charge de la batterie du ROBIOT>
+
+**************************************************************/
+
 class CBatterie
 {
 private:	
-	int level_batterie;
+	int iNiveau_Batterie;
 
 
 public:
 
 	CBatterie(); //Constructeur de CBatterie
-	CBatterie(int level); //Constructeur de CBatterie
+	CBatterie(int iNiveau_Init); //Constructeur de CBatterie
 	~CBatterie(); //Destructeur de CBatterie
 	
-	int get_level_batterie(); // retourne la valeur de la batterie 
-	void set_level_batterie(int level); // mise à jour de la valeur de la batterie 
-	void CBatterie::battery_consumption(int cons); // battery consumption 
+	int Get_Level_Batterie(); // retourne la valeur de la batterie 
+	void Set_Level_Batterie(int iCharge); // mise à jour de la valeur de la batterie 
+	void Consommation_Batterie(int iConsommation); // consommation de batterie 
 };

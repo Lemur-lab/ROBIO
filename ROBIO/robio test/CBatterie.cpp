@@ -4,14 +4,14 @@
 #include <cstdlib>
 #include <iostream>
 
-CBatterie::CBatterie() : level_batterie(0)
+CBatterie::CBatterie() : iNiveau_Batterie(0)
 {
 
 }
 
-CBatterie::CBatterie(int level)
+CBatterie::CBatterie(int iNiveau_Init)
 {
-	level_batterie = level ; 
+	iNiveau_Batterie = iNiveau_Init ; 
 }
 
 CBatterie::~CBatterie()
@@ -19,20 +19,20 @@ CBatterie::~CBatterie()
 }
 
 
-int CBatterie::get_level_batterie()
+int CBatterie::Get_Level_Batterie()
 {
-	return level_batterie;
+	return iNiveau_Batterie;
 }
 
 
-void CBatterie::set_level_batterie(int level)
+void CBatterie::Set_Level_Batterie(int iCharge)
 {
-	level_batterie = level;
+	iNiveau_Batterie = iCharge;
 }
 
-void CBatterie::battery_consumption(int cons){
+void CBatterie::Consommation_Batterie(int iConsommation){
 
-	level_batterie = level_batterie + cons; 
+	iNiveau_Batterie = iNiveau_Batterie + iConsommation; 
 }
 
 
