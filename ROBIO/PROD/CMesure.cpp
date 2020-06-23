@@ -5,7 +5,7 @@
 #include <iostream>
 #include <Windows.h>
 
-
+ 
 
 /* Constructors and Destructors */
 CMesure::CMesure() : MesureOn(0), MesureData(0)
