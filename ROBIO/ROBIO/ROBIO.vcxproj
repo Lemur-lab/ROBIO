@@ -24,6 +24,7 @@
     <ProjectGuid>{5d463f00-ec9e-498b-8e48-2cc0922f4367}</ProjectGuid>
     <RootNamespace>ROBIO</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BUILD</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
