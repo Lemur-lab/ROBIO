@@ -1,0 +1,531 @@
+        YOUR COMMAND LINE : cncc.exe CBatterie.h CBatterie.cpp CCapteur.h CCapteur.cpp CCommande.h CCommande.cpp CCompas.h CCompas.cpp CMesure.h CMesure.cpp CMoteur.h CMoteur.cpp test.cpp
+
+
+
+
+                ==========================
+                ### File : CBatterie.h ###
+                ==========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CBatterie.hi2
+                * CBatterie.hi3
+                ------------------------------------
+
+
+CBatterie.h     --- Summary Report (numbers) ---
+CBatterie.h     =====================================
+CBatterie.h     |               :   Lines :   Chars |
+CBatterie.h     |-----------------------------------|
+CBatterie.h     | Code Only     :       7 :     218 |
+CBatterie.h     | Code+Comment  :       6 :       - |
+CBatterie.h     | Comment Only  :       4 :     407 |
+CBatterie.h     | Empty         :       8 :      24 |
+CBatterie.h     |...................................|
+CBatterie.h     | * Total       :      25 :     649 |
+CBatterie.h     =====================================
+
+CBatterie.h     --- Summary Report (percents) ---
+CBatterie.h     =====================================
+CBatterie.h     |               :   Lines :   Chars |
+CBatterie.h     |-----------------------------------|
+CBatterie.h     | Code Only     :  28.0 % :  33.6 % |
+CBatterie.h     | Code+Comment  :  24.0 % :       - |
+CBatterie.h     | Comment Only  :  16.0 % :  62.7 % |
+CBatterie.h     | Empty         :  32.0 % :   3.7 % |
+CBatterie.h     |...................................|
+CBatterie.h     | * Total       :   100 % :   100 % |
+CBatterie.h     =====================================
+
+
+
+
+                ============================
+                ### File : CBatterie.cpp ###
+                ============================
+
+                ------------------------------------
+                Files purified from comments created
+                * CBatterie.ci2
+                * CBatterie.ci3
+                ------------------------------------
+
+
+CBatterie.cpp   --- Summary Report (numbers) ---
+CBatterie.cpp   =====================================
+CBatterie.cpp   |               :   Lines :   Chars |
+CBatterie.cpp   |-----------------------------------|
+CBatterie.cpp   | Code Only     :      27 :     460 |
+CBatterie.cpp   | Code+Comment  :       0 :       - |
+CBatterie.cpp   | Comment Only  :       0 :       0 |
+CBatterie.cpp   | Empty         :      12 :      29 |
+CBatterie.cpp   |...................................|
+CBatterie.cpp   | * Total       :      39 :     489 |
+CBatterie.cpp   =====================================
+
+CBatterie.cpp   --- Summary Report (percents) ---
+CBatterie.cpp   =====================================
+CBatterie.cpp   |               :   Lines :   Chars |
+CBatterie.cpp   |-----------------------------------|
+CBatterie.cpp   | Code Only     :  69.2 % :  94.1 % |
+CBatterie.cpp   | Code+Comment  :   0.0 % :       - |
+CBatterie.cpp   | Comment Only  :   0.0 % :   0.0 % |
+CBatterie.cpp   | Empty         :  30.8 % :   5.9 % |
+CBatterie.cpp   |...................................|
+CBatterie.cpp   | * Total       :   100 % :   100 % |
+CBatterie.cpp   =====================================
+
+
+
+
+                =========================
+                ### File : CCapteur.h ###
+                =========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCapteur.hi2
+                * CCapteur.hi3
+                ------------------------------------
+
+
+CCapteur.h      --- Summary Report (numbers) ---
+CCapteur.h      =====================================
+CCapteur.h      |               :   Lines :   Chars |
+CCapteur.h      |-----------------------------------|
+CCapteur.h      | Code Only     :       9 :     267 |
+CCapteur.h      | Code+Comment  :       9 :       - |
+CCapteur.h      | Comment Only  :       9 :     769 |
+CCapteur.h      | Empty         :      10 :      91 |
+CCapteur.h      |...................................|
+CCapteur.h      | * Total       :      37 :    1127 |
+CCapteur.h      =====================================
+
+CCapteur.h      --- Summary Report (percents) ---
+CCapteur.h      =====================================
+CCapteur.h      |               :   Lines :   Chars |
+CCapteur.h      |-----------------------------------|
+CCapteur.h      | Code Only     :  24.3 % :  23.7 % |
+CCapteur.h      | Code+Comment  :  24.3 % :       - |
+CCapteur.h      | Comment Only  :  24.3 % :  68.2 % |
+CCapteur.h      | Empty         :  27.0 % :   8.1 % |
+CCapteur.h      |...................................|
+CCapteur.h      | * Total       :   100 % :   100 % |
+CCapteur.h      =====================================
+
+
+
+
+                ===========================
+                ### File : CCapteur.cpp ###
+                ===========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCapteur.ci2
+                * CCapteur.ci3
+                ------------------------------------
+
+
+CCapteur.cpp    --- Summary Report (numbers) ---
+CCapteur.cpp    =====================================
+CCapteur.cpp    |               :   Lines :   Chars |
+CCapteur.cpp    |-----------------------------------|
+CCapteur.cpp    | Code Only     :      38 :     449 |
+CCapteur.cpp    | Code+Comment  :       0 :       - |
+CCapteur.cpp    | Comment Only  :      14 :     525 |
+CCapteur.cpp    | Empty         :      10 :      86 |
+CCapteur.cpp    |...................................|
+CCapteur.cpp    | * Total       :      62 :    1060 |
+CCapteur.cpp    =====================================
+
+CCapteur.cpp    --- Summary Report (percents) ---
+CCapteur.cpp    =====================================
+CCapteur.cpp    |               :   Lines :   Chars |
+CCapteur.cpp    |-----------------------------------|
+CCapteur.cpp    | Code Only     :  61.3 % :  42.4 % |
+CCapteur.cpp    | Code+Comment  :   0.0 % :       - |
+CCapteur.cpp    | Comment Only  :  22.6 % :  49.5 % |
+CCapteur.cpp    | Empty         :  16.1 % :   8.1 % |
+CCapteur.cpp    |...................................|
+CCapteur.cpp    | * Total       :   100 % :   100 % |
+CCapteur.cpp    =====================================
+
+
+
+
+                ==========================
+                ### File : CCommande.h ###
+                ==========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCommande.hi2
+                * CCommande.hi3
+                ------------------------------------
+
+
+CCommande.h     --- Summary Report (numbers) ---
+CCommande.h     =====================================
+CCommande.h     |               :   Lines :   Chars |
+CCommande.h     |-----------------------------------|
+CCommande.h     | Code Only     :       4 :      28 |
+CCommande.h     | Code+Comment  :       0 :       - |
+CCommande.h     | Comment Only  :       4 :     216 |
+CCommande.h     | Empty         :       5 :       2 |
+CCommande.h     |...................................|
+CCommande.h     | * Total       :      13 :     246 |
+CCommande.h     =====================================
+
+CCommande.h     --- Summary Report (percents) ---
+CCommande.h     =====================================
+CCommande.h     |               :   Lines :   Chars |
+CCommande.h     |-----------------------------------|
+CCommande.h     | Code Only     :  30.8 % :  11.4 % |
+CCommande.h     | Code+Comment  :   0.0 % :       - |
+CCommande.h     | Comment Only  :  30.8 % :  87.8 % |
+CCommande.h     | Empty         :  38.5 % :   0.8 % |
+CCommande.h     |...................................|
+CCommande.h     | * Total       :   100 % :   100 % |
+CCommande.h     =====================================
+
+
+
+
+                ============================
+                ### File : CCommande.cpp ###
+                ============================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCommande.ci2
+                * CCommande.ci3
+                ------------------------------------
+
+
+CCommande.cpp   --- Summary Report (numbers) ---
+CCommande.cpp   =====================================
+CCommande.cpp   |               :   Lines :   Chars |
+CCommande.cpp   |-----------------------------------|
+CCommande.cpp   | Code Only     :       2 :      36 |
+CCommande.cpp   | Code+Comment  :       0 :       - |
+CCommande.cpp   | Comment Only  :       0 :       0 |
+CCommande.cpp   | Empty         :       0 :       2 |
+CCommande.cpp   |...................................|
+CCommande.cpp   | * Total       :       2 :      38 |
+CCommande.cpp   =====================================
+
+CCommande.cpp   --- Summary Report (percents) ---
+CCommande.cpp   =====================================
+CCommande.cpp   |               :   Lines :   Chars |
+CCommande.cpp   |-----------------------------------|
+CCommande.cpp   | Code Only     : 100.0 % :  94.7 % |
+CCommande.cpp   | Code+Comment  :   0.0 % :       - |
+CCommande.cpp   | Comment Only  :   0.0 % :   0.0 % |
+CCommande.cpp   | Empty         :   0.0 % :   5.3 % |
+CCommande.cpp   |...................................|
+CCommande.cpp   | * Total       :   100 % :   100 % |
+CCommande.cpp   =====================================
+
+
+
+
+                ========================
+                ### File : CCompas.h ###
+                ========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCompas.hi2
+                * CCompas.hi3
+                ------------------------------------
+
+
+CCompas.h       --- Summary Report (numbers) ---
+CCompas.h       =====================================
+CCompas.h       |               :   Lines :   Chars |
+CCompas.h       |-----------------------------------|
+CCompas.h       | Code Only     :       8 :     221 |
+CCompas.h       | Code+Comment  :       7 :       - |
+CCompas.h       | Comment Only  :       4 :     420 |
+CCompas.h       | Empty         :      12 :      34 |
+CCompas.h       |...................................|
+CCompas.h       | * Total       :      31 :     675 |
+CCompas.h       =====================================
+
+CCompas.h       --- Summary Report (percents) ---
+CCompas.h       =====================================
+CCompas.h       |               :   Lines :   Chars |
+CCompas.h       |-----------------------------------|
+CCompas.h       | Code Only     :  25.8 % :  32.7 % |
+CCompas.h       | Code+Comment  :  22.6 % :       - |
+CCompas.h       | Comment Only  :  12.9 % :  62.2 % |
+CCompas.h       | Empty         :  38.7 % :   5.0 % |
+CCompas.h       |...................................|
+CCompas.h       | * Total       :   100 % :   100 % |
+CCompas.h       =====================================
+
+
+
+
+                ==========================
+                ### File : CCompas.cpp ###
+                ==========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CCompas.ci2
+                * CCompas.ci3
+                ------------------------------------
+
+
+CCompas.cpp     --- Summary Report (numbers) ---
+CCompas.cpp     =====================================
+CCompas.cpp     |               :   Lines :   Chars |
+CCompas.cpp     |-----------------------------------|
+CCompas.cpp     | Code Only     :      30 :     383 |
+CCompas.cpp     | Code+Comment  :       0 :       - |
+CCompas.cpp     | Comment Only  :       0 :       0 |
+CCompas.cpp     | Empty         :      16 :      28 |
+CCompas.cpp     |...................................|
+CCompas.cpp     | * Total       :      46 :     411 |
+CCompas.cpp     =====================================
+
+CCompas.cpp     --- Summary Report (percents) ---
+CCompas.cpp     =====================================
+CCompas.cpp     |               :   Lines :   Chars |
+CCompas.cpp     |-----------------------------------|
+CCompas.cpp     | Code Only     :  65.2 % :  93.2 % |
+CCompas.cpp     | Code+Comment  :   0.0 % :       - |
+CCompas.cpp     | Comment Only  :   0.0 % :   0.0 % |
+CCompas.cpp     | Empty         :  34.8 % :   6.8 % |
+CCompas.cpp     |...................................|
+CCompas.cpp     | * Total       :   100 % :   100 % |
+CCompas.cpp     =====================================
+
+
+
+
+                ========================
+                ### File : CMesure.h ###
+                ========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CMesure.hi2
+                * CMesure.hi3
+                ------------------------------------
+
+
+CMesure.h       --- Summary Report (numbers) ---
+CMesure.h       =====================================
+CMesure.h       |               :   Lines :   Chars |
+CMesure.h       |-----------------------------------|
+CMesure.h       | Code Only     :       8 :     224 |
+CMesure.h       | Code+Comment  :       8 :       - |
+CMesure.h       | Comment Only  :       8 :     431 |
+CMesure.h       | Empty         :       9 :      56 |
+CMesure.h       |...................................|
+CMesure.h       | * Total       :      33 :     711 |
+CMesure.h       =====================================
+
+CMesure.h       --- Summary Report (percents) ---
+CMesure.h       =====================================
+CMesure.h       |               :   Lines :   Chars |
+CMesure.h       |-----------------------------------|
+CMesure.h       | Code Only     :  24.2 % :  31.5 % |
+CMesure.h       | Code+Comment  :  24.2 % :       - |
+CMesure.h       | Comment Only  :  24.2 % :  60.6 % |
+CMesure.h       | Empty         :  27.3 % :   7.9 % |
+CMesure.h       |...................................|
+CMesure.h       | * Total       :   100 % :   100 % |
+CMesure.h       =====================================
+
+
+
+
+                ==========================
+                ### File : CMesure.cpp ###
+                ==========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CMesure.ci2
+                * CMesure.ci3
+                ------------------------------------
+
+
+CMesure.cpp     --- Summary Report (numbers) ---
+CMesure.cpp     =====================================
+CMesure.cpp     |               :   Lines :   Chars |
+CMesure.cpp     |-----------------------------------|
+CMesure.cpp     | Code Only     :      38 :     508 |
+CMesure.cpp     | Code+Comment  :       1 :       - |
+CMesure.cpp     | Comment Only  :       5 :     106 |
+CMesure.cpp     | Empty         :      17 :      45 |
+CMesure.cpp     |...................................|
+CMesure.cpp     | * Total       :      61 :     659 |
+CMesure.cpp     =====================================
+
+CMesure.cpp     --- Summary Report (percents) ---
+CMesure.cpp     =====================================
+CMesure.cpp     |               :   Lines :   Chars |
+CMesure.cpp     |-----------------------------------|
+CMesure.cpp     | Code Only     :  62.3 % :  77.1 % |
+CMesure.cpp     | Code+Comment  :   1.6 % :       - |
+CMesure.cpp     | Comment Only  :   8.2 % :  16.1 % |
+CMesure.cpp     | Empty         :  27.9 % :   6.8 % |
+CMesure.cpp     |...................................|
+CMesure.cpp     | * Total       :   100 % :   100 % |
+CMesure.cpp     =====================================
+
+
+
+
+                ========================
+                ### File : CMoteur.h ###
+                ========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CMoteur.hi2
+                * CMoteur.hi3
+                ------------------------------------
+
+
+CMoteur.h       --- Summary Report (numbers) ---
+CMoteur.h       =====================================
+CMoteur.h       |               :   Lines :   Chars |
+CMoteur.h       |-----------------------------------|
+CMoteur.h       | Code Only     :       4 :      26 |
+CMoteur.h       | Code+Comment  :       0 :       - |
+CMoteur.h       | Comment Only  :       4 :     202 |
+CMoteur.h       | Empty         :       5 :       2 |
+CMoteur.h       |...................................|
+CMoteur.h       | * Total       :      13 :     230 |
+CMoteur.h       =====================================
+
+CMoteur.h       --- Summary Report (percents) ---
+CMoteur.h       =====================================
+CMoteur.h       |               :   Lines :   Chars |
+CMoteur.h       |-----------------------------------|
+CMoteur.h       | Code Only     :  30.8 % :  11.3 % |
+CMoteur.h       | Code+Comment  :   0.0 % :       - |
+CMoteur.h       | Comment Only  :  30.8 % :  87.8 % |
+CMoteur.h       | Empty         :  38.5 % :   0.9 % |
+CMoteur.h       |...................................|
+CMoteur.h       | * Total       :   100 % :   100 % |
+CMoteur.h       =====================================
+
+
+
+
+                ==========================
+                ### File : CMoteur.cpp ###
+                ==========================
+
+                ------------------------------------
+                Files purified from comments created
+                * CMoteur.ci2
+                * CMoteur.ci3
+                ------------------------------------
+
+
+CMoteur.cpp     --- Summary Report (numbers) ---
+CMoteur.cpp     =====================================
+CMoteur.cpp     |               :   Lines :   Chars |
+CMoteur.cpp     |-----------------------------------|
+CMoteur.cpp     | Code Only     :       3 :      51 |
+CMoteur.cpp     | Code+Comment  :       0 :       - |
+CMoteur.cpp     | Comment Only  :       9 :     179 |
+CMoteur.cpp     | Empty         :       6 :       3 |
+CMoteur.cpp     |...................................|
+CMoteur.cpp     | * Total       :      18 :     233 |
+CMoteur.cpp     =====================================
+
+CMoteur.cpp     --- Summary Report (percents) ---
+CMoteur.cpp     =====================================
+CMoteur.cpp     |               :   Lines :   Chars |
+CMoteur.cpp     |-----------------------------------|
+CMoteur.cpp     | Code Only     :  16.7 % :  21.9 % |
+CMoteur.cpp     | Code+Comment  :   0.0 % :       - |
+CMoteur.cpp     | Comment Only  :  50.0 % :  76.8 % |
+CMoteur.cpp     | Empty         :  33.3 % :   1.3 % |
+CMoteur.cpp     |...................................|
+CMoteur.cpp     | * Total       :   100 % :   100 % |
+CMoteur.cpp     =====================================
+
+
+
+
+                =======================
+                ### File : test.cpp ###
+                =======================
+
+                ------------------------------------
+                Files purified from comments created
+                * test.ci2
+                * test.ci3
+                ------------------------------------
+
+
+test.cpp        --- Summary Report (numbers) ---
+test.cpp        =====================================
+test.cpp        |               :   Lines :   Chars |
+test.cpp        |-----------------------------------|
+test.cpp        | Code Only     :      46 :    1205 |
+test.cpp        | Code+Comment  :      11 :       - |
+test.cpp        | Comment Only  :       9 :     921 |
+test.cpp        | Empty         :      38 :     132 |
+test.cpp        |...................................|
+test.cpp        | * Total       :     104 :    2258 |
+test.cpp        =====================================
+
+test.cpp        --- Summary Report (percents) ---
+test.cpp        =====================================
+test.cpp        |               :   Lines :   Chars |
+test.cpp        |-----------------------------------|
+test.cpp        | Code Only     :  44.2 % :  53.4 % |
+test.cpp        | Code+Comment  :  10.6 % :       - |
+test.cpp        | Comment Only  :   8.7 % :  40.8 % |
+test.cpp        | Empty         :  36.5 % :   5.8 % |
+test.cpp        |...................................|
+test.cpp        | * Total       :   100 % :   100 % |
+test.cpp        =====================================
+
+
+
+
+
+
+                ========================
+                ##### All 13 files #####
+                ========================
+
+
+All files       --- Summary Report (numbers) ---
+All files       =====================================
+All files       |               :   Lines :   Chars |
+All files       |-----------------------------------|
+All files       | Code Only     :     224 :    4076 |
+All files       | Code+Comment  :      42 :       - |
+All files       | Comment Only  :      70 :    4176 |
+All files       | Empty         :     148 :     534 |
+All files       |...................................|
+All files       | * Total       :     484 :    8786 |
+All files       =====================================
+
+All files       --- Summary Report (percents) ---
+All files       =====================================
+All files       |               :   Lines :   Chars |
+All files       |-----------------------------------|
+All files       | Code Only     :  46.3 % :  46.4 % |
+All files       | Code+Comment  :   8.7 % :       - |
+All files       | Comment Only  :  14.5 % :  47.5 % |
+All files       | Empty         :  30.6 % :   6.1 % |
+All files       |...................................|
+All files       | * Total       :   100 % :   100 % |
+All files       =====================================
+
+C:\Users\revei\source\repos\ROBIO\ROBIO\robio test>
