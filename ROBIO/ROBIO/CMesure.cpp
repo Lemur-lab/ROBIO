@@ -51,7 +51,11 @@ void CMesure::LaunchMesure()
 {
 	int MesureVal;	
 
-	MesureVal = rand();
+	_sleep(100);
+
+	MesureVal = rand() % 9999;
 
 	SetMesureData(MesureVal);
+
+	SetMesureOn(0); // Reset MesureOn
 }

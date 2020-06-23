@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 
-CCompas::CCompas() : iPosition_x(0), iPposition_y(0)
+CCompas::CCompas()
 {
 }
 

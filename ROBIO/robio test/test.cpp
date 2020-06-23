@@ -8,6 +8,8 @@
 #include "pch.h"
 #include "CCompas.h"
 #include "CBatterie.h"
+#include "CMesure.h"
+#include "CCapteur.h"
 
 
 // Tests de la classe CCompas
@@ -46,11 +48,57 @@ TEST(TestCBatterie, TestConsumption) {
   
 }
 
+// Tests de la classe CCapteur
 
-// TESTS DE LA CLASSE Cxxx
+TEST(TestCCapteur, TestConsumption) {
 
-//TEST(TestCaseName, TestName) {
-//  EXPECT_EQ(1, 1);
-//  EXPECT_TRUE(true);
-//}
+	bool Obstacle;
+	bool Tree;
+	bool Border;
+
+	CCapteur CCapteur(0, 0, 0); // Initialisation de la classe, pas de détéction à l'init
+	Obstacle = CCapteur.GetObstacle();
+	Tree = CCapteur.GetTree();
+	Border = CCapteur.GetBorder();
+
+	EXPECT_EQ(Obstacle, 0); // verifie que l'obstacle est bien initialisé
+	EXPECT_EQ(Tree, 0); // verifie que Tree est bien initialisé
+	EXPECT_EQ(Border, 0); // verifie que Border est bien initialisé
+
+	CCapteur.SetObstacle(1);
+	CCapteur.SetTree(1);
+	CCapteur.SetBorder(1);
+
+	Obstacle = CCapteur.GetObstacle();
+	Tree = CCapteur.GetTree();
+	Border = CCapteur.GetBorder();
+
+	EXPECT_EQ(Obstacle, 1); // verifie que l'obstacle est bien détecté
+	EXPECT_EQ(Tree, 1); // verifie que Tree est bien détecté
+	EXPECT_EQ(Border, 1); // verifie que Border est bien détecté
+
+}
+
+
+
+TEST(TestCMesure, TestLaunchMesure)
+{
+	bool MesOn = 0;
+	int MesVal = -1;
+	
+	CMesure CMesure(0,0);
+
+	CMesure.SetMesureOn(1);
+	MesOn = CMesure.GetMesureOn();
+
+	EXPECT_EQ(MesOn, 1); // check MesureOn is true and Getter is effective
+
+	CMesure.LaunchMesure();
+	MesVal = CMesure.GetMesureData();
+
+	// rand % 9999 outputs between 0 and 9999
+	EXPECT_GE(MesVal, 0);
+	EXPECT_LE(MesVal, 9999);
+
+}
 

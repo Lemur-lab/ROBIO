@@ -21,9 +21,6 @@
     <ClCompile Include="..\ROBIO\CMoteur.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\ROBIO\main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -53,5 +50,8 @@
     <Filter Include="Fichiers d%27en-tête">
       <UniqueIdentifier>{ac3f3975-f20f-46b6-b235-8675cc38230d}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

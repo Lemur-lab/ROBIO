@@ -30,7 +30,8 @@ void CBatterie::Set_Level_Batterie(int iCharge)
 	iNiveau_Batterie = iCharge;
 }
 
-void CBatterie::Consommation_Batterie(int iConsommation){
+void CBatterie::Consommation_Batterie(int iConsommation)
+{
 
 	iNiveau_Batterie = iNiveau_Batterie + iConsommation; 
 }
