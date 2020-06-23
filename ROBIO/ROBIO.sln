@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "robio test", "robio test\ro
 		{5D463F00-EC9E-498B-8E48-2CC0922F4367} = {5D463F00-EC9E-498B-8E48-2CC0922F4367}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PROD", "PROD\PROD.vcxproj", "{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,14 @@ Global
 		{1C8C559F-0637-4F02-9FE9-BCD74DB2DD0B}.Release|x64.Build.0 = Release|x64
 		{1C8C559F-0637-4F02-9FE9-BCD74DB2DD0B}.Release|x86.ActiveCfg = Release|Win32
 		{1C8C559F-0637-4F02-9FE9-BCD74DB2DD0B}.Release|x86.Build.0 = Release|Win32
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Debug|x64.ActiveCfg = Debug|x64
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Debug|x64.Build.0 = Debug|x64
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Debug|x86.ActiveCfg = Debug|Win32
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Debug|x86.Build.0 = Debug|Win32
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Release|x64.ActiveCfg = Release|x64
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Release|x64.Build.0 = Release|x64
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Release|x86.ActiveCfg = Release|Win32
+		{44AA3050-5DE0-4E67-BB74-B5C63BAE4276}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
