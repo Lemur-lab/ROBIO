@@ -1,0 +1,31 @@
+#pragma once
+
+
+
+
+
+
+
+
+class CCompas
+{
+
+private :
+
+	int iPosition_x;
+	int iPosition_y;
+
+public :
+
+	CCompas();
+	CCompas(int iPos_x, int iPos_y);
+	~CCompas();
+
+
+	int Get_position_x();    
+	int Get_position_y();    
+
+	void Set_position_x(int iPos_x); 
+	void Set_position_y(int iPos_y); 
+};
+

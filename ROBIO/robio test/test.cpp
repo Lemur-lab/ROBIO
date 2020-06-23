@@ -79,7 +79,7 @@ TEST(TestCCapteur, TestConsumption) {
 
 }
 
-
+// Tests de la classe CMesure
 
 TEST(TestCMesure, TestLaunchMesure)
 {

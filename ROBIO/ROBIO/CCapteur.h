@@ -1,5 +1,16 @@
 #pragma once
 
+/**************************************************************
+* CLASS : <CCapteur>
+* PRESENTATION : <Detection captor for the trees, borders, and obstacles>
+*
+* PUBLIC METHODS : 
+* Constructors     : To construct the captor object
+* Getters          : To get the boolean value for the private data
+* Setters          : To set the boolean value for the private data
+*
+* OBSERVATIONS : **************************************************************/
+
 class CCapteur
 {
 	// Private data

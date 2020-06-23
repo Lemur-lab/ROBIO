@@ -1,0 +1,33 @@
+#pragma once
+
+                                                               
+
+                    
+                                                     
+
+                                                               
+
+class CMesure
+{
+	private:
+		bool	MesureOn;
+		int		MesureData;
+
+	public:
+		                                  
+		CMesure();          
+		CMesure(bool MOn, int MData);                          
+		~CMesure();            
+
+		             
+		bool	GetMesureOn();		                  
+		int		GetMesureData();	                    
+
+		             
+		void	SetMesureOn(bool MOn);		               
+		void	SetMesureData(int MData);	                 
+
+		               
+		void	LaunchMesure();		                                         
+};
+

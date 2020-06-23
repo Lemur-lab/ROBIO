@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "CBatterie.h"
 #include <time.h>
 #include <cstdlib>
@@ -10,7 +11,7 @@ CBatterie::CBatterie() : iNiveau_Batterie(0)
 
 CBatterie::CBatterie(int iNiveau_Init)
 {
-	iNiveau_Batterie = iNiveau_Init;
+	iNiveau_Batterie = iNiveau_Init ; 
 }
 
 CBatterie::~CBatterie()
@@ -32,7 +33,7 @@ void CBatterie::Set_Level_Batterie(int iCharge)
 void CBatterie::Consommation_Batterie(int iConsommation)
 {
 
-	iNiveau_Batterie = iNiveau_Batterie + iConsommation;
+	iNiveau_Batterie = iNiveau_Batterie + iConsommation; 
 }
 
 

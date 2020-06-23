@@ -1,0 +1,37 @@
+#pragma once
+
+
+
+
+
+
+
+
+class CCapteur
+{
+	
+private:
+	bool Tree;
+	bool Obstacle;
+	bool Border;
+
+	
+public:
+
+	
+	CCapteur();														
+	CCapteur(bool valTree, bool valObstacle, bool valBorder);		
+	~CCapteur();													
+
+	
+	bool GetObstacle();					
+	bool GetBorder();					
+	bool GetTree();						
+
+	
+	void SetObstacle(bool val);			
+	void SetBorder(bool val);			
+	void SetTree(bool val);				
+
+};
+

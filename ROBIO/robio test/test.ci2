@@ -1,0 +1,104 @@
+                                                               
+
+                     
+                                                                       
+
+                                                               
+
+#include "pch.h"
+#include "CCompas.h"
+#include "CBatterie.h"
+#include "CMesure.h"
+#include "CCapteur.h"
+
+
+                             
+
+TEST(TestCCompas, TestSetPosition) {
+	
+	int iRes_x; 
+	int iRes_y;
+
+	CCompas CCompas(3, 3);
+
+	CCompas.Set_position_x(5);
+	CCompas.Set_position_y(5); 
+
+	iRes_x = CCompas.Get_position_x(); 
+	iRes_y = CCompas.Get_position_y(); 
+	
+	EXPECT_EQ(iRes_x, 5);                                                                       
+	EXPECT_EQ(iRes_y, 5);                                                                       
+}
+
+
+                               
+
+TEST(TestCBatterie, TestConsumption) {
+  
+	int iRes_Batterie;
+
+	CBatterie CBatterie(0); 
+
+	CBatterie.Consommation_Batterie(10);
+
+	iRes_Batterie = CBatterie.Get_Level_Batterie();
+
+	EXPECT_EQ(iRes_Batterie, 10);                                                         
+  
+}
+
+                              
+
+TEST(TestCCapteur, TestConsumption) {
+
+	bool Obstacle;
+	bool Tree;
+	bool Border;
+
+	CCapteur CCapteur(0, 0, 0);                                                          
+	Obstacle = CCapteur.GetObstacle();
+	Tree = CCapteur.GetTree();
+	Border = CCapteur.GetBorder();
+
+	EXPECT_EQ(Obstacle, 0);                                              
+	EXPECT_EQ(Tree, 0);                                        
+	EXPECT_EQ(Border, 0);                                          
+
+	CCapteur.SetObstacle(1);
+	CCapteur.SetTree(1);
+	CCapteur.SetBorder(1);
+
+	Obstacle = CCapteur.GetObstacle();
+	Tree = CCapteur.GetTree();
+	Border = CCapteur.GetBorder();
+
+	EXPECT_EQ(Obstacle, 1);                                           
+	EXPECT_EQ(Tree, 1);                                     
+	EXPECT_EQ(Border, 1);                                       
+
+}
+
+                             
+
+TEST(TestCMesure, TestLaunchMesure)
+{
+	bool MesOn = 0;
+	int MesVal = -1;
+	
+	CMesure CMesure(0,0);
+
+	CMesure.SetMesureOn(1);
+	MesOn = CMesure.GetMesureOn();
+
+	EXPECT_EQ(MesOn, 1);                                                  
+
+	CMesure.LaunchMesure();
+	MesVal = CMesure.GetMesureData();
+
+	                                         
+	EXPECT_GE(MesVal, 0);
+	EXPECT_LE(MesVal, 9999);
+
+}
+

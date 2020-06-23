@@ -1,0 +1,25 @@
+#pragma once
+
+
+
+
+
+
+
+
+class CBatterie
+{
+private:	
+	int iNiveau_Batterie;
+
+
+public:
+
+	CBatterie(); 
+	CBatterie(int iNiveau_Init); 
+	~CBatterie(); 
+	
+	int Get_Level_Batterie(); 
+	void Set_Level_Batterie(int iCharge); 
+	void Consommation_Batterie(int iConsommation); 
+};
